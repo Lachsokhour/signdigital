@@ -1,7 +1,7 @@
 import NxWelcome from './nx-welcome';
 
 import { Route, Routes, Link } from 'react-router-dom';
-import { Button } from '@signdigital/shadcn-ui';
+import { Button } from '@libs/shadcn-ui';
 
 export function App() {
   return (

@@ -9,9 +9,9 @@
     "cssVariables": true
   },
   "aliases": {
-    "ui": "@signdigital/libs/shadcn-ui",
-    "components": "@signdigital/libs/shadcn-ui/components",
-    "utils": "@signdigital/utils",
-    "hooks": "@signdigital/libs/shadcn-ui/hooks"
+    "ui": "@libs/shadcn-ui/ui",
+    "components": "@libs/shadcn-ui/components",
+    "utils": "@libs/utils",
+    "hooks": "@libs/shadcn-ui/hooks"
   }
 }
