@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "default",
+  "rsc": false,
+  "tailwind": {
+    "config": "libs\\utils\\src\\tailwind.config.ts",
+    "css": "libs\\utils\\src\\global.css",
+    "baseColor": "neutral",
+    "cssVariables": true
+  },
+  "aliases": {
+    "ui": "@signdigital/libs/shadcn-ui",
+    "components": "@signdigital/libs/shadcn-ui/components",
+    "utils": "@signdigital/utils",
+    "hooks": "@signdigital/libs/shadcn-ui/hooks"
+  }
+}

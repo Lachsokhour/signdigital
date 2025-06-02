@@ -1,6 +1,7 @@
 import NxWelcome from './nx-welcome';
 
 import { Route, Routes, Link } from 'react-router-dom';
+import { Button } from '@signdigital/shadcn-ui';
 
 export function App() {
   return (
@@ -23,6 +24,13 @@ export function App() {
           </li>
         </ul>
       </div>
+      <Button
+          variant="outline"
+          size="lg"
+          onClick={() => alert('Button clicked!')}
+        >
+          Click Me
+        </Button>
       <Routes>
         <Route
           path="/"

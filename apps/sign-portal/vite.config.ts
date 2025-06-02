@@ -1,6 +1,7 @@
 /// <reference types='vitest' />
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import { resolve } from 'path';
 
 export default defineConfig(() => ({
   root: __dirname,
@@ -24,6 +25,14 @@ export default defineConfig(() => ({
     reportCompressedSize: true,
     commonjsOptions: {
       transformMixedEsModules: true,
+    },
+  },
+   resolve: {
+    alias: {
+      '@signdigital/shadcn-ui': resolve(__dirname, '../../libs/shadcn-ui/src/index.ts'),
+      '@signdigital/shadcn-ui/*': resolve(__dirname, '../../libs/shadcn-ui/src/*'),
+      '@signdigital/utils': resolve(__dirname, '../../libs/utils/src'),
+      '@signdigital/utils/*': resolve(__dirname, '../../libs/utils/src/*'),
     },
   },
 }));

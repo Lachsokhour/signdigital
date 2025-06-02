@@ -5,6 +5,12 @@
   "references": [
     {
       "path": "./apps/sign-portal"
+    },
+    {
+      "path": "./libs/shadcn-ui"
+    },
+    {
+      "path": "./libs/utils"
     }
   ]
 }
