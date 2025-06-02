@@ -71,13 +71,13 @@ Nx Console is an editor extension that enriches your developer experience. It le
 ### Add
 
 ```bash
-nx add-component <ui lib name> button
+nx add-component shadcn-ui button
 ```
 
 ### All all components
 
 ```bash
-nx add-component <ui lib name>
+nx add-component shadcn-ui
 ```
 
 ## Useful links
